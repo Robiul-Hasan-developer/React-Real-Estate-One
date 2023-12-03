@@ -1,0 +1,20 @@
+/* Featured Css Start */
+.heroContainer {
+    
+}
+
+.featuredCard {
+    box-shadow: var(--box-shadow);
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px;
+    background-color: hsl(var(--white));
+}
+
+  .featuredCard__icon {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+/* Featured Css End */

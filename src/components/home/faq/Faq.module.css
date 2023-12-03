@@ -1,0 +1,40 @@
+/* Faq section css start */
+.faqItem {
+    margin-bottom: 24px;
+    box-shadow: var(--box-shadow);
+    background-color: hsl(var(--white));
+    border-radius: 8px;
+}
+
+.faqItem:last-child {
+    margin-bottom: 0;
+}
+.faqButton {
+    background-color: hsl(var(--white));
+    border-radius: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faqTitle {
+    margin-bottom: 0;
+}
+.faqTitle.active {
+    color: hsl(var(--base));
+}
+.faqButton, .faqDesc {
+    padding: 24px 32px;
+    padding: 24px 32px;
+}
+@media (max-width: 575px) {
+    .faqButton, .faqDesc {
+        padding: 16px;
+        padding: 16px;
+    }
+}
+.faqDesc {
+    margin-bottom: 0;
+    border-top: 1px solid hsl(var(--border-color));
+}
+/* Faq section css end */

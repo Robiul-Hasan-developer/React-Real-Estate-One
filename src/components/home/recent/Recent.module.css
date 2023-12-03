@@ -1,0 +1,52 @@
+/* Recent Section css start */
+.recentCard {
+    height: 100%;
+}
+.recentCard .text {
+    padding: 30px;
+  }
+  .recentCard .categoryBadge {
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+  }
+  .recentCard .category i {
+    font-size: 20px;
+    color: #bec7d8;
+  }
+  .recentCard p {
+    color: #72809d;
+  }
+  .recentCard .button {
+    border-top: 1px solid #e4e8f3;
+    padding: 10px 30px;
+  }
+
+
+  .wishlistBtn {
+    color: hsl(var(--light));
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(var(--base)/.1);
+    color: hsl(var(--base));
+  }
+  .wishlistBtn:hover {
+    color: hsl(var(--base));
+  }
+
+  .wishlistAdded  {
+    background-color: hsl(var(--base));
+    color: hsl(var(--white));
+  }
+  .wishlistAdded:hover {
+    color: hsl(var(--white));
+  }
+  
+/* Recent Section css End */

@@ -1,0 +1,58 @@
+/* ================== Price Section  Css Start ================ */
+  .PriceCard {
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .PriceCard {
+        padding: 24px 16px;
+    }
+  }
+
+  .PriceCard:nth-child(1) .topbtn button,
+  .PriceCard:nth-child(3) .topbtn button {
+    display: none;
+  }
+  .PriceCard h1 {
+    font-weight: 700;
+    line-height: 1;
+  }
+  .PriceCard h1 span {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .PriceCard ul {
+    margin-top: 40px;
+  }
+  .PriceCard ul li {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .PriceCard label {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .activePlan {
+    background: hsl(var(--base)) !important;
+    color: hsl(var(--white)) !important;
+}
+  
+  @media screen and (max-width: 800px) {
+    .content .PriceCard {
+      width: 100%;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 50px;
+    }
+  }
+  
+/* ================== Price Section  Css ENd ================ */

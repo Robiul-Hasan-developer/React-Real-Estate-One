@@ -1,0 +1,95 @@
+/* ======================= Team Section Css Start ============ */
+.teamCard {
+    background: #ffffff;
+    border-radius: 6px;
+    border: 1px solid rgb(62 28 131 / 10%);
+    padding: 2rem;
+    transition: 0.5s;
+  }
+  @media (max-width: 991px) {
+    .teamCard { 
+        padding: 1.5rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .teamCard { 
+        padding: 1.5rem 10px;
+    }
+  }
+  .teamCard:hover {
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    cursor: pointer;
+  }
+  .teamCardDetails {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .teamCardImg {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    position: relative;
+  }
+  .teamCardImg img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  .teamCardImg i {
+    color: #108be7;
+    font-size: 17px;
+    position: absolute;
+    top: 35px;
+    right: -10px;
+  }
+  .img::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 110px;
+    height: 110px;
+    border: 5px solid #edf0f5;
+    border-radius: 50%;
+  }
+  .teamCardAddress {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .teamCardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px !important;
+  }
+  @media (max-width: 767px) {
+    .teamCardList { 
+        gap: 8px;
+    }
+  }
+  .teamCardList li {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    align-items: center;
+    background-color: #f4f5f7;
+    border-radius: 50%;
+    transition: .2s linear;
+  }
+  .teamCardList li:hover {
+    background-color: hsl(var(--base));
+    color: hsl(var(--white));
+  }
+  /* .button {
+    margin-top: 20px;
+  }
+  .button i {
+    color: white;
+    font-size: 20px;
+  } */
+  
+/* ======================= Team Section Css End ============ */

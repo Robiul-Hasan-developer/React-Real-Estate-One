@@ -1,0 +1,28 @@
+.awardSection {
+    color: hsl(var(--white));
+  }
+  .awardSectionHeading > div[class="section-heading"] {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .awardSection p {
+    color: hsl(var(--base));
+  }
+  .awardCard h1 {
+    color: hsl(var(--white));
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .awardCardIcon {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4% 50%;
+    font-size: 32px;
+    color: hsl(var(--white));
+  }
+  .awardCard h1 {
+    font-size: 50px;
+  }
