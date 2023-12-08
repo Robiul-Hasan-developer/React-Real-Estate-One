@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { nav } from '../../data/Data';
+import { SidebarContext } from '../context/SidebarContext';
+import { CartContext } from '../context/CartContext';
 
 const Headerr = () => {
+    
+    const {isOpen, setIsOpen, handleClose} = useContext(SidebarContext); 
+
+    const {itemAmount} = useContext(CartContext); 
+     
+
+    const handleSidebarClick = () => {
+        setIsOpen(!isOpen);
+    }
+    
     return (
         <>
             <header className="header" id="header">
@@ -26,8 +38,7 @@ const Headerr = () => {
                                 }
                             </ul>
                             <div className="header-right flex-align gap-3">
-                                <button type="button" className='list-count p-0'> <span className="list-count__number">2</span> List</button>
-                                <Link className='btn btn--base'> <span className="icon"> <i className='fas fa-sign-out-alt'></i> </span> Sing In</Link>
+                                <button type="button" onClick={ handleSidebarClick} className='list-count p-0'> <span className="list-count__number">{itemAmount}</span> List</button>
                             </div>
                         </div>
                     </nav>

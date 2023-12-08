@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Hero from './hero/Hero';
 import Headerr from '../common/header/Headerr';
 import Featured from './featured/Featured';
@@ -11,6 +11,7 @@ import Footer from '../common/footer/Footer';
 import Faqs from './faq/Faqs';
 
 const Home = () => {
+    
     return (
         <>
             <Headerr/>

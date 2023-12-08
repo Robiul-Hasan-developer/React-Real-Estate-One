@@ -1,0 +1,22 @@
+
+/* ======================== Sidebar Css Start ========================== */
+.sidebar {
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    max-width: 450px;
+    background-color: #fff;
+    z-index: 99;
+    width: 100%;
+    padding: 24px;
+    transform: translateX(-100%);
+    transition: .2s;
+    z-index: 9999;
+  }
+  
+  .sidebar.show {
+    transform: translateX(0);
+  }
+  /* ======================== Sidebar Css End ========================== */
+  

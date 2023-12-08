@@ -25,7 +25,7 @@
   }
 
 
-  .wishlistBtn {
+  .addToCart {
     color: hsl(var(--light));
     background-color: transparent;
     width: 35px;
@@ -37,7 +37,7 @@
     background: hsl(var(--base)/.1);
     color: hsl(var(--base));
   }
-  .wishlistBtn:hover {
+  .addToCart:hover {
     color: hsl(var(--base));
   }
 
