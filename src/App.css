@@ -1429,3 +1429,19 @@ footer ul li a:hover {
 a:hover {
   color: hsl(var(--base)) !important;
 }
+
+.header-right {
+  order: 3;
+}
+
+@media (max-width: 991px) {
+  .header-right {
+    order: -1;
+    margin-left: auto;
+    margin-right: 16px;
+  }
+  
+  .navbar-brand.logo {
+    order: -2;
+  }
+}

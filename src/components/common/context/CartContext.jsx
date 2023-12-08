@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from 'react';
+import CartItem from './../sidebar/CartItem';
 
 export const CartContext = createContext(); 
 
@@ -46,8 +47,11 @@ const CartProvider = ({ children }) => {
     }
 
     // decrement Amount
-    const decreaseAmount = () => {
-
+    const decreaseAmount = (id) => {
+        const cartItem = cart.find((item) => {
+            return item.id === id; 
+        })
+        console.log(cartItem);
     }
 
     // Remove Shopping Cart Item From Sidebar

@@ -25,6 +25,10 @@ const Headerr = () => {
                             <span id="hiddenNav"><i className="las la-bars"></i></span>
                         </button>
 
+                        <div className="header-right flex-align gap-3">
+                            <button type="button" onClick={ handleSidebarClick} className='list-count p-0'> <span className="list-count__number">{itemAmount}</span> List</button>
+                        </div>
+
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav nav-menu ms-auto align-items-lg-center">
                                 {
@@ -37,9 +41,6 @@ const Headerr = () => {
                                     ))
                                 }
                             </ul>
-                            <div className="header-right flex-align gap-3">
-                                <button type="button" onClick={ handleSidebarClick} className='list-count p-0'> <span className="list-count__number">{itemAmount}</span> List</button>
-                            </div>
                         </div>
                     </nav>
                 </div>
